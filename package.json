@@ -1,4 +1,7 @@
 {
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "type": "module",
   "name": "dsr-pkg",
   "version": "1.0.0",
