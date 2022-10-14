@@ -4,7 +4,7 @@
   },
   "type": "module",
   "name": "dsr-pkg",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Static assets package for DSR projects.",
   "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.net/)",
   "license": "AGPL-3.0",
