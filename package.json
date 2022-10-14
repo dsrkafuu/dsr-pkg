@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "dsr-pkg",
+  "version": "1.0.0",
+  "description": "Static assets package for DSR projects.",
+  "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.net/)",
+  "license": "AGPL-3.0",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsx ./scripts/build.ts",
+    "push": "zx ./scripts/push.js"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^8.0.0",
+    "@types/node": "^18.8.5",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "chalk": "^5.1.2",
+    "eslint": "^8.25.0",
+    "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
+    "tsx": "^3.10.1",
+    "typescript": "^4.8.4",
+    "zx": "^7.1.1"
+  }
+}
